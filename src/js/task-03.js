@@ -13,10 +13,9 @@ const images = [
   },
 ];
 
-const pictureGallery = images.map(
-  ({ url, alt }) =>
-    `<li class="gallery__item"><img class="gallery_image" src="${url}" alt="${alt}"/></li>`
-);
+const galleryImages = images.map(({ url, alt }) => {
+  return `<li class="gallery__item"><img class="image" src="${url}" alt="${alt}"/></li>`;
+});
 
 document
   .querySelector(".gallery")
