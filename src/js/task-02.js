@@ -7,11 +7,13 @@ const ingredients = [
   "Condiments",
 ];
 
-const arrayList = ingredients.map((ingredient) => {
-  const listItem = document.createElement("li");
-  listItem.classList.add("item");
-  listItem.textContent = ingredient;
-  return listItem;
+const arrayListEl = ingredients.map((ingredient) => {
+  const listItemEl = document.createElement("li");
+  listItemEl.classList.add("item");
+  listItemEl.textContent = ingredient;
+  return listItemEl;
 });
 
-document.querySelector("#ingredients").append(...arrayList);
+document.querySelector("#ingredients").append(...arrayListEl);
+
+console.log(arrayListEl);
