@@ -15,5 +15,3 @@ const arrayListEl = ingredients.map((ingredient) => {
 });
 
 document.querySelector("#ingredients").append(...arrayListEl);
-
-console.log(arrayListEl);
