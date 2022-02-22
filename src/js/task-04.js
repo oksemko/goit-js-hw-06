@@ -1,5 +1,3 @@
-const userCounter = document.querySelector("#counter");
-
 let counterValue = document.querySelector("#value");
 
 const incrementBtb = document.querySelector('[data-action="increment"]');
