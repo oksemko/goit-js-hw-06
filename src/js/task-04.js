@@ -1,9 +1,9 @@
 let counterValue = document.querySelector("#value");
 
-const incrementBtb = document.querySelector('[data-action="increment"]');
+const incrementBtn = document.querySelector('[data-action="increment"]');
 const decrementBtn = document.querySelector('[data-action="decrement"]');
 
-incrementBtb.addEventListener("click", increment);
+incrementBtn.addEventListener("click", increment);
 decrementBtn.addEventListener("click", decrement);
 
 function increment() {
