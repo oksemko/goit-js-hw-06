@@ -20,6 +20,3 @@ const galleryImages = images.map(({ url, alt }) => {
 document
   .querySelector(".gallery")
   .insertAdjacentHTML("afterbegin", galleryImages.join(""));
-
-// const imagesEl = images.map(galleryImages);
-// console.log(imagesEl);
