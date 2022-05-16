@@ -1,6 +1,6 @@
 const inputEl = document.querySelector("input");
 
-inputEl.addEventListener("blur", (event) => {
+inputEl.addEventListener("blur", (event) = {
   if (event.currentTarget.value.length >= inputEl.dataset.length) {
     inputEl.classList.add("valid");
     inputEl.classList.remove("invalid");
