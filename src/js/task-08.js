@@ -7,7 +7,7 @@ function onFormSubmit(event) {
   const { email, password } = event.currentTarget.elements;
   if (email.value && password.value) {
     const formFields = { email: email.value, password: password.value };
-    // event.currentTarget.reset();
+    event.currentTarget.reset();
     return toConsole(formFields);
   }
   return alert("All form fields must be completed");
