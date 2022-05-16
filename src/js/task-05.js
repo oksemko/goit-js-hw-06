@@ -6,3 +6,6 @@ inputRef.addEventListener("input", (event) => {
     ? event.currentTarget.value
     : "Anonymous";
 });
+
+// console.log(inputRef);
+// console.log(outputRef);
